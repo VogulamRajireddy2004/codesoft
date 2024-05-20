@@ -1,0 +1,208 @@
+*{
+        padding:0;
+        margin:0;
+        font-family: 'poppins',sans-serif;
+        box-sizing:border-box;
+        
+      
+}
+.menu {
+        
+        top:0;
+        left:0;
+        right:0;
+        position: fixed;
+        display: flex;
+      align-items: center;
+        justify-content:space-between;
+        
+     
+}
+.menu nav a{
+        text-decoration: none;
+        margin:15px; 
+}
+.icons i{
+        margin:5px;
+}
+.icons a{
+        padding: 3px;
+}
+.images { 
+        border:2px solid red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+}
+.images .first{
+        height: 25%;
+        width:25px;
+
+
+}
+.main{
+        margin-top: 50px;
+        display: flex;
+}
+.container{
+     
+        border: 2px solid red;
+        width:fit-content;
+        padding:25px;
+      background-color: aqua;
+        margin-left: 50px;
+        margin-top:50px;
+
+}
+.container h2{
+        color: brown;
+}
+p{
+        color:green;
+}
+.intro{
+        display:flex;
+        margin-top:200px;
+        margin-left: 75px;
+        margin-bottom:150px;
+      
+}
+.intro .matter{
+        margin-right:55px;
+}
+.pic img{
+      border-radius: 25%;
+}
+.buttons button{
+        margin-top:45px;
+        margin-right: 15px;
+        line-height: 5px;
+       background-color:chartreuse;
+       padding: 15px;
+
+}
+.menu h1{
+        
+        color:blue;
+}
+.menu nav a{
+        color:black;
+}
+.about
+{
+        display:flex;
+        padding:100px;
+        
+
+}
+.about .pic{
+        margin-right: 120px;
+        margin-top:5px;
+        transform:translateX('25deg');
+}
+p{
+        font-size: large;
+}
+.about {
+        margin-bottom: 103px;
+}
+.about .introduction{
+        color:green;
+}
+.ski{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+}
+
+.programming
+{
+      
+        color:green;
+}
+.Frontend
+{
+        color:blue;
+
+        margin-right: 55px;
+}
+.Frontend h2{
+        color:red;
+        
+}
+.Database
+{
+        color:red;
+        
+}
+.Database h2{
+        color:blue;
+}
+.projects{
+        margin-top: 65px;
+        
+}
+.projects h1{
+        margin-bottom: 25px;
+}
+.projects p{
+        margin-top: 25px;
+        color:red;
+}
+.projects button{
+        margin-top:15px;
+        color:blue;
+        width:100px;
+        font-size:15px;
+        
+}
+.Digital{
+        margin-bottom: 25px;
+        color:green;
+}
+.QRcode{
+        margin-bottom: 25px;
+        color:green;
+}
+.QRcode p{
+        color:blue
+}
+.QRcode button{
+        color:red;
+}
+.Calculator{
+        margin-bottom: 65px;
+        color:red;
+}
+.Calculator p{
+                 color:  green;
+}
+#Contact{
+        margin-bottom: 45px;
+        color:red;
+}
+#Contact button{
+        margin-top:45px;
+        margin-left: 35px;
+        margin-right: 35px;
+        line-height: 5px;
+       background-color:chartreuse;
+       padding: 15px;
+}
+footer {
+
+        max-width:100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        background:#333;
+        color:#fff;
+        padding: 20px 0;
+}
+footer p{
+        color:white;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+}
+      

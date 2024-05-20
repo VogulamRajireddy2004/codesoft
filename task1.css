@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+        margin: 0px;
+        padding:0px;
+        box-sizing: border-box;
+        font-family:'poppins' , sans-serif;
+
+}
+section{
+        min-height: 100vh;
+      background-image: url("d:\projects\IMG-20240327-WA0045.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: aqua;
+}
+section:hover{
+        background-color: red;
+}
+.container
+{
+        width:86%;
+        margin: auto;
+}
+
+nav{
+        height: 81px;
+}
+nav h1{
+        float:left;
+        line-height:81px;
+        font-size:36px;
+        font-size:inline;
+        color:blue;
+}
+nav ul{
+        float:right;
+        line-height:82px;
+}
+nav ul li{
+        display:Inline-block;
+        list-style:none;
+        padding:0px 6px;
+}
+nav ul li a{
+        
+        text-decoration: none;
+        text-transform: uppercase;
+              border-radius:6px;
+              padding: 6px 9px;
+
+}
+nav ul li a:hover{
+
+        background-color:green;
+        transition: 0.6s ease;
+
+}
+nav ul li .active:{
+        background-color:red;
+}
+.intro{
+        width:52%;
+        margin:auto;
+        text-align:center;
+        transform:translateY(26vh);
+}
+.intro:hover{
+        background-color: aqua;
+}
+
+.intro h1{
+        font-size:37px;
+        color:red;
+        letter-spacing: 1.7px;
+        font-weight: 810;
+        margin-bottom: 25px;
+       
+}
+.intro p{
+        font-size:19px;
+        color:red;
+        line-height:1.6;
+        margin-bottom: 25px;
+        
+}
+.intro .btn{
+        color:#fff;
+        padding:13px 26px;
+        letter-spacing: 1.6px;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: blue;
+}
+.intro .btn:hover{
+        background-color: #4399fa;
+        transition:0.6s ease;
+
+}
