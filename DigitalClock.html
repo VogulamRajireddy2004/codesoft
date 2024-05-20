@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital clock</title>
+        <link rel="stylesheet" href="DClock.css">
+</head>
+<body>
+        <div class="new">
+              <b>  <p>A Digitalclock is an alternative to traditional analogue clock.</p><p> This type of clock shows numbers to didsplay the time.</p><p> In digital format, such as on a watch,phone or an alarm clock.</p><p>This can be in both 12 and 24hours</p></b>
+           <h1>Digitalclock</h1>
+                
+                <div class="new2">
+                     
+                        <div class="Digitalclock">
+                                <span id="hrs">00</span>
+                                <span>:</span>
+                                <span id="min">00</span>
+                                <span>:</span>
+                                <span id="sec">00</span>
+                        </div>
+                </div>
+        </div>
+        <script>
+                let hrs =document.getElementById("hrs");
+                let min = document.getElementById("min");
+                let sec=document.getElementById("sec");
+
+               
+              setInterval(()=>{
+                 let currentTime = new Date();
+               
+               hrs.innerHTML = (currentTime.getHours()<10?"0":"")+ currentTime.getHours();
+               min.innerHTML = (currentTime.getMinutes()<10?"0":"")+ currentTime.getMinutes();
+               sec.innerHTML = (currentTime.getSeconds()<10?"0":"")+ currentTime.getSeconds();
+        },1000)
+
+
+
+
+        </script>
+</body>
+</html>
